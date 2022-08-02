@@ -4,9 +4,9 @@
 
   <!-- Remotes -->
 
-  <remote name="diki"
+  <remote name="firman"
 
-          fetch="https://github.com/dikiawan-9" />
+          fetch="https://github.com/GCapsper" />
 
   <remote name="nexus"
 
@@ -22,9 +22,9 @@
 
   <!-- Trees -->
 
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="diki" revision="12.1" />
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="firman" revision="12.1" />
 
-  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="diki" revision="12.1" />
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="firman" revision="12.1" />
 
   <!-- Kernel -->
 
