@@ -7,9 +7,12 @@
    <remote name="kernel"
           fetch="https://github.com/TianWalkzzMiku" />
   
-  <!-- Sync Trees -->       
+  <!-- Sync Trees -->   
+  
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="firman" revision="lineage" />
-  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="firman" revision="twelve" />
+  
+  <!-- Sync vendor --> 
+  
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="firman" revision="twelve" />
   
   <!-- Sync kernel --> 
